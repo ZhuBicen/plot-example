@@ -1,3 +1,5 @@
+#pragma once
+#include "src/global.h"
 /* modified 2022-11-06T12:45:56, size 5576 */
 
 class QCP_LIB_DECL QCPItemText : public QCPAbstractItem

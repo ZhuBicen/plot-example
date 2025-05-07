@@ -1,3 +1,5 @@
+#pragma once
+#include "src/global.h"
 /* modified 2022-11-06T12:45:56, size 3308     */
 
 class QCP_LIB_DECL QCPAxisTickerFixed : public QCPAxisTicker

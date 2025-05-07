@@ -1,3 +1,7 @@
+#pragma once
+#include "src/global.h"
+#include "src/paintbuffer.h"
+
 /* modified 2022-11-06T12:45:56, size 7038 */
 
 class QCP_LIB_DECL QCPLayer : public QObject

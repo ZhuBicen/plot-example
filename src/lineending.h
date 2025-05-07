@@ -1,4 +1,6 @@
-/* modified 2022-11-06T12:45:56, size 4426 */
+#pragma once
+#include "src/global.h"
+#include "src/vector2d.h"
 
 class QCP_LIB_DECL QCPLineEnding
 {

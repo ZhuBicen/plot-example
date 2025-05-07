@@ -1,4 +1,6 @@
-/* modified 2022-11-06T12:45:56, size 7529                      */
+#pragma once
+#include "src/global.h"
+#include "src/layout.h"
 
 class QCP_LIB_DECL QCPAxisRect : public QCPLayoutElement
 {

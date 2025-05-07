@@ -1,4 +1,11 @@
-/* modified 2022-11-06T12:45:56, size 20913 */
+#pragma once
+#include "src/global.h"
+#include "src/layer.h"
+#include "src/axis/range.h"
+#include "src/lineending.h"
+
+class QCPAxisTicker;
+
 
 class QCP_LIB_DECL QCPGrid :public QCPLayerable
 {

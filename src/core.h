@@ -1,4 +1,6 @@
-/* modified 2022-11-06T12:45:56, size 19304 */
+#pragma once
+#include "src/global.h"
+#include "src/selection.h"
 
 class QCP_LIB_DECL QCustomPlot : public QWidget
 {
