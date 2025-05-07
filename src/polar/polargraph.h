@@ -160,6 +160,3 @@ private:
 };
 
 /* end of 'src/polar/polargraph.h' */
-
-
-#endif // QCUSTOMPLOT_H
