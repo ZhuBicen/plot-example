@@ -1,6 +1,5 @@
 #include "src/plottables/plottable-bars.h"
-/* modified 2022-11-06T12:45:56, size 43907           */
-
+#include "src/layoutelements/layoutelement-axisrect.h"
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////// QCPBarsGroup

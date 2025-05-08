@@ -1,5 +1,5 @@
 #include "src/plottables/plottable-statisticalbox.h"
-/* modified 2022-11-06T12:45:57, size 28951                     */
+#include "src/layoutelements/layoutelement-axisrect.h"
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////// QCPStatisticalBoxData

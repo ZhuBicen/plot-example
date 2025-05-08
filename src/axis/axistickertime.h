@@ -1,6 +1,7 @@
 #pragma once
 #include "src/global.h"
-/* modified 2022-11-06T12:45:56, size 3542    */
+#include "src/axis/axisticker.h"
+#include "src/axis/range.h"
 
 class QCP_LIB_DECL QCPAxisTickerTime : public QCPAxisTicker
 {

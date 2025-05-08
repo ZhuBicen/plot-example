@@ -1,5 +1,7 @@
 #include "src/axis/labelpainter.h"
-/* modified 2022-11-06T12:45:56, size 27519   */
+#include "src/vector2d.h"
+#include "src/core.h"
+#include "src/painter.h"
 
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////

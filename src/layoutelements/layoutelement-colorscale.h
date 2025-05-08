@@ -1,7 +1,9 @@
 #pragma once
 #include "src/global.h"
-/* modified 2022-11-06T12:45:56, size 5939                        */
-
+#include "src/axis/range.h"
+#include "src/axis/axis.h"
+#include "src/colorgradient.h"
+#include "src/layoutelements/layoutelement-axisrect.h"
 
 class QCPColorScaleAxisRectPrivate : public QCPAxisRect
 {

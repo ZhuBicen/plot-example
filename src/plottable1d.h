@@ -1,6 +1,10 @@
 #pragma once
 #include "src/global.h"
-/* modified 2022-11-06T12:45:56, size 25638 */
+#include "src/painter.h"
+#include "src/selection.h"
+#include "src/plottable.h"
+#include "src/core.h"
+#include "src/datacontainer.h"
 
 class QCPPlottableInterface1D
 {

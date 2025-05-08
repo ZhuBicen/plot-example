@@ -1,5 +1,6 @@
 #pragma once
 #include "src/global.h"
+#include "src/axis/axisticker.h"
 /* modified 2022-11-06T12:45:56, size 3911  */
 
 class QCP_LIB_DECL QCPAxisTickerPi : public QCPAxisTicker

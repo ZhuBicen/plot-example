@@ -1,6 +1,8 @@
 #pragma once
 #include "src/global.h"
-/* modified 2022-11-06T12:45:56, size 4458           */
+#include "src/plottable.h"
+#include "src/selectionrect.h"
+#include "src/painter.h"
 
 class QCP_LIB_DECL QCPSelectionDecoratorBracket : public QCPSelectionDecorator
 {

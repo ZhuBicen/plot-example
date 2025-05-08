@@ -1,6 +1,7 @@
 #include "src/polar/polargraph.h"
-/* modified 2022-11-06T12:45:57, size 44035  */
-
+#include "src/polar/layoutelement-angularaxis.h"
+#include "src/polar/radialaxis.h"
+#include "src/painter.h"
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////// QCPPolarLegendItem

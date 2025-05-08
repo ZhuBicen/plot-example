@@ -1,5 +1,6 @@
 #include "src/layoutelements/layoutelement-textelement.h"
-/* modified 2022-11-06T12:45:56, size 12925                          */
+#include "src/core.h"
+#include "src/painter.h"
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////// QCPTextElement

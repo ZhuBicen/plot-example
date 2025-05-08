@@ -1,5 +1,11 @@
 #include "src/core.h"
-/* modified 2022-11-06T12:45:56, size 127625 */
+#include "src/layoutelements/layoutelement-axisrect.h"
+#include "src/layoutelements/layoutelement-legend.h"
+#include "src/selectionrect.h"
+#include "src/plottable.h"
+#include "src/plottables/plottable-graph.h"
+#include "src/painter.h"
+#include "src/item.h"
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////// QCustomPlot

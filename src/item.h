@@ -1,6 +1,7 @@
 #pragma once
 #include "src/global.h"
-/* modified 2022-11-06T12:45:56, size 9425 */
+#include "src/layer.h"
+#include "src/axis/axis.h"
 
 class QCP_LIB_DECL QCPItemAnchor
 {

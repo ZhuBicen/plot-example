@@ -1,5 +1,6 @@
 #include "src/plottables/plottable-curve.h"
-/* modified 2022-11-06T12:45:56, size 63851            */
+#include "src/layoutelements/layoutelement-axisrect.h"
+
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////// QCPCurveData

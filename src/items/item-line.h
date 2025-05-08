@@ -1,6 +1,7 @@
 #pragma once
 #include "src/global.h"
-/* modified 2022-11-06T12:45:56, size 3429 */
+#include "src/item.h"
+#include "src/lineending.h"
 
 class QCP_LIB_DECL QCPItemLine : public QCPAbstractItem
 {

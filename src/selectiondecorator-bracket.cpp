@@ -1,5 +1,6 @@
 #include "src/selectiondecorator-bracket.h"
-/* modified 2022-11-06T12:45:56, size 12308            */
+#include "src/axis/axis.h"
+#include "src/plottable1d.h"
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////// QCPSelectionDecoratorBracket

@@ -1,6 +1,8 @@
 #pragma once
 #include "src/global.h"
-/* modified 2022-11-06T12:45:56, size 7092              */
+#include "src/plottable.h"
+#include "src/axis/axis.h"
+#include "src/colorgradient.h"
 
 class QCP_LIB_DECL QCPColorMapData
 {

@@ -1,7 +1,8 @@
 #pragma once
 #include "src/global.h"
-/* modified 2022-11-06T12:45:56, size 8955          */
-
+#include "src/axis/range.h"
+#include "src/datacontainer.h"
+#include "src/plottable1d.h"
 class QCP_LIB_DECL QCPBarsGroup : public QObject
 {
   Q_OBJECT

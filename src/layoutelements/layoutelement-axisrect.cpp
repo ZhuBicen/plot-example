@@ -1,6 +1,8 @@
 #include "src/layoutelements/layoutelement-axisrect.h"
-/* modified 2022-11-06T12:45:56, size 47193                       */
-
+#include "src/axis/axisticker.h"
+#include "src/core.h"
+#include "src/plottables/plottable-graph.h"
+#include "src/item.h"
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////// QCPAxisRect

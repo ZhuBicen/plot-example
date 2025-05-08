@@ -1,5 +1,7 @@
 #include "src/polar/polargrid.h"
-/* modified 2022-11-06T12:45:57, size 7493  */
+#include "src/painter.h"
+#include "src/polar/radialaxis.h"
+#include "src/polar/layoutelement-angularaxis.h"
 
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////

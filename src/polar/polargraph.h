@@ -1,7 +1,8 @@
 #pragma once
 #include "src/global.h"
-/* modified 2022-11-06T12:45:56, size 9606 */
-
+#include "src/item.h"
+#include "src/plottables/plottable-graph.h"
+#include "src/layoutelements/layoutelement-legend.h"
 
 class QCP_LIB_DECL QCPPolarLegendItem : public QCPAbstractLegendItem
 {

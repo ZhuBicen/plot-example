@@ -1,6 +1,7 @@
 #pragma once
 #include "src/global.h"
-/* modified 2022-11-06T12:45:56, size 9316           */
+#include "src/datacontainer.h"
+#include "src/plottable1d.h"
 
 class QCP_LIB_DECL QCPGraphData
 {

@@ -1,6 +1,9 @@
 #pragma once
 #include "src/global.h"
 #include "src/selection.h"
+#include "src/layout.h"
+#include "src/axis/axis.h"
+#include "src/paintbuffer.h"
 
 class QCP_LIB_DECL QCustomPlot : public QWidget
 {

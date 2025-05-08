@@ -1,6 +1,7 @@
 #pragma once
 #include "src/global.h"
 #include "src/layout.h"
+#include "src/axis/axis.h"
 
 class QCP_LIB_DECL QCPAxisRect : public QCPLayoutElement
 {

@@ -1,7 +1,10 @@
 #include "src/polar/layoutelement-angularaxis.h"
-/* modified 2022-11-06T12:45:57, size 57266                 */
-
-
+#include "src/core.h"
+#include "src/axis/axistickerfixed.h"
+#include "src/polar/polargrid.h"
+#include "src/polar/radialaxis.h"
+#include "src/painter.h"
+#include "src/polar/polargraph.h"
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////// QCPPolarAxisAngular
 ////////////////////////////////////////////////////////////////////////////////////////////////////

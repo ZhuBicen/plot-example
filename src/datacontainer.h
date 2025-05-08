@@ -1,6 +1,7 @@
 #pragma once
 #include "src/global.h"
-/* modified 2022-11-06T12:45:56, size 34305 */
+#include "src/selection.h"
+#include "src/axis/range.h"
 
 /*! \relates QCPDataContainer
   Returns whether the sort key of \a a is less than the sort key of \a b.
