@@ -1,0 +1,19 @@
+{
+    "version": 3,
+    "cmakeMinimumRequired": {
+        "major": 3,
+        "minor": 20,
+        "patch": 0
+    },
+    "configurePresets": [
+        {
+            "name": "my-config",
+            "displayName": "Custom Configuration",
+            "description": "Configure with custom CMAKE_PREFIX_PATH",
+            "binaryDir": "${sourceDir}/build",
+            "cacheVariables": {
+                "CMAKE_PREFIX_PATH": "/Users/bzhu/Qt/6.8.0/macos"
+            }
+        }
+    ]
+}

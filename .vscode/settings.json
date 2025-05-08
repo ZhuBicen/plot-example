@@ -1,0 +1,4 @@
+{
+    "cmake.sourceDirectory": "/Users/bzhu/Downloads/qcustomplot/examples/plots",
+    "C_Cpp.default.compileCommands": "${workspaceFolder}/vscode_build/compile_commands.json"
+}
