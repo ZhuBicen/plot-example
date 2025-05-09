@@ -114,6 +114,10 @@ void MainWindow::setupDemo(int demoIndex)
   setWindowTitle("QCustomPlot: "+demoName);
   statusBar()->clearMessage();
   currentDemoIndex = demoIndex;
+  ui->customPlot->setOpenGl(true);
+  if (!ui->customPlot->openGl()) {
+      qDebug() << "OpenGL not available, falling back to standard painting";
+  }  
   ui->customPlot->replot();
 }
 

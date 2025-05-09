@@ -417,7 +417,13 @@ void QCPPaintBufferGlFbo::draw(QCPPainter *painter) const
     qDebug() << Q_FUNC_INFO << "OpenGL frame buffer object doesn't exist, reallocateBuffer was not called?";
     return;
   }
-  painter->drawImage(0, 0, mGlFrameBuffer->toImage());
+  // Blit the FBO to the default framebuffer (screen)
+  QRect targetRect(0, 0, mGlFrameBuffer->width(), mGlFrameBuffer->height());
+  QRect sourceRect(0, 0, mGlFrameBuffer->width(), mGlFrameBuffer->height());
+          
+  QOpenGLFramebufferObject::blitFramebuffer(nullptr, targetRect, mGlFrameBuffer, sourceRect);
+
+  // painter->drawImage(0, 0, mGlFrameBuffer->toImage());
 }
 
 /* inherits documentation from base class */
