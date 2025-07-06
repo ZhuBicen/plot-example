@@ -418,12 +418,13 @@ void QCPPaintBufferGlFbo::draw(QCPPainter *painter) const
     return;
   }
   // Blit the FBO to the default framebuffer (screen)
-  QRect targetRect(0, 0, mGlFrameBuffer->width(), mGlFrameBuffer->height());
-  QRect sourceRect(0, 0, mGlFrameBuffer->width(), mGlFrameBuffer->height());
-          
-  QOpenGLFramebufferObject::blitFramebuffer(nullptr, targetRect, mGlFrameBuffer, sourceRect);
-
-  // painter->drawImage(0, 0, mGlFrameBuffer->toImage());
+  QRect targetRect(0,
+                   0,
+                   mGlFrameBuffer->width() / mDevicePixelRatio,
+                   mGlFrameBuffer->height() / mDevicePixelRatio);s
+  QImage *image = new QImage(mGlFrameBuffer->toImage());
+  image->setDevicePixelRatio(mDevicePixelRatio);
+  painter->drawImage(targetRect, *image, image->rect());
 }
 
 /* inherits documentation from base class */
