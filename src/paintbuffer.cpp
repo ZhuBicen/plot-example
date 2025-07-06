@@ -421,7 +421,7 @@ void QCPPaintBufferGlFbo::draw(QCPPainter *painter) const
   QRect targetRect(0,
                    0,
                    mGlFrameBuffer->width() / mDevicePixelRatio,
-                   mGlFrameBuffer->height() / mDevicePixelRatio);s
+                   mGlFrameBuffer->height() / mDevicePixelRatio);
   QImage *image = new QImage(mGlFrameBuffer->toImage());
   image->setDevicePixelRatio(mDevicePixelRatio);
   painter->drawImage(targetRect, *image, image->rect());
